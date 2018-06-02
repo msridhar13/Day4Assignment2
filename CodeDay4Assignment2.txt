@@ -1,0 +1,17 @@
+Problem Statement Ans#1
+
+list1=['23','33334','3334asff','eererererer']
+list(map(lambda x:len(x),list1))
+
+
+Problem Statement Ans#2
+
+def vowel(char):
+    vowels="aeiou"
+    return char.lower() in vowels
+
+
+vowel("A")
+vowel("c")
+
+
